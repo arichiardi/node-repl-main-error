@@ -1,6 +1,13 @@
 # node-repl-main-error
 
-FIXME: Write a one-line description of your library/project.
+To check the error:
+
+```
+./script/repl
+cat .cljs_node_repl/watch.log
+```
+
+It looks like the compiler options in `repl.clj` are not effective either.
 
 ## Overview
 
